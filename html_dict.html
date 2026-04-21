@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="imagens/code.png">
+    <title>Dicionário HTML</title>
+</head>
+<body>
+    <header>
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="index.html"><span class="num">01.</span>início</a></li>
+            </ul>
+        </nav> <!--menu-desktop-->
+    </header>
+
+    <main>
+        <section class="dicionario">
+            <div class="interface">
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th>tag</th>
+                            <th>utilização</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;head&gt;</td>
+                            <td class="valor">Contém informações sobre o documento que não são exibidas diretamente, como metadados, título e links para recursos externos.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;header&gt;</td>
+                            <td class="valor">Elemento semântico que representa o cabeçalho de uma página ou seção, geralmente contendo navegação e identidade visual.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;title&gt;</td>
+                            <td class="valor">Define o título do documento, exibido na aba do navegador e utilizado por mecanismos de busca.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;nav&gt;</td>
+                            <td class="valor">Elemento semântico destinado a agrupar links de navegação principais, como menus e sumários.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;main&gt;</td>
+                            <td class="valor">Representa o conteúdo principal e único da página, excluindo cabeçalhos, rodapés e barras laterais.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;section&gt;</td>
+                            <td class="valor">Representa uma seção temática do documento. Por convenção, deve sempre conter um elemento de título.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;div&gt;</td>
+                            <td class="valor">Contêiner genérico sem valor semântico, amplamente utilizado para agrupar elementos e facilitar a estilização via CSS.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;li&gt;</td>
+                            <td class="valor">Representa um item de lista, podendo ser filho de ul (lista não-ordenada) ou ol (lista ordenada).</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;ul&gt;</td>
+                            <td class="valor">Define uma lista não-ordenada, onde a sequência dos itens não implica ordem ou prioridade.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;a&gt;</td>
+                            <td class="valor">Cria hiperlinks para outras páginas, arquivos, endereços de e-mail ou seções do mesmo documento através do atributo href.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td class="valor">Define um parágrafo de texto, adicionando automaticamente espaçamento antes e depois do conteúdo.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;span&gt;</td>
+                            <td class="valor">Contêiner inline genérico sem valor semântico, utilizado para aplicar estilos a trechos específicos de texto.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;h1&gt;, &lt;h2&gt;...&lt;h6&gt;</td>
+                            <td class="valor">Definem títulos com seis níveis de hierarquia, onde h1 é o mais importante.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;img&gt;</td>
+                            <td class="valor">Incorpora uma imagem ao documento. Os atributos src (caminho) e alt (descrição) são essenciais para acessibilidade.</td>
+                        </tr>
+
+                        <tr>
+                            <td>&lt;footer&gt;</td>
+                            <td class="valor">Elemento semântico que representa o rodapé de uma página ou seção, geralmente com informações de contato e créditos.</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <div class="interface">
+                <div class="logos">
+                    <a href="https://github.com/sarahmeivie" target="_blank">
+                        <img src="imagens/github.png" alt="Logo Github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/sarah-meireles-silva-vieira/" target="_blank">
+                        <img src="imagens/linkedin.png" alt="Logo Linkedin">
+                    </a>
+                </div><!--logos-->
+
+                <div class="email">
+                    <img src="imagens/email.png" alt="Logo Email">
+                    <p>sarahmeirelesvieira@gmail.com</p>
+                </div><!--email-->
+            </div><!--interface-->
+    </footer>
+</body>
+</html>
