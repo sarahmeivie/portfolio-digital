@@ -413,7 +413,7 @@ section.dicionario {
 
     section {
         display: flex;
-        padding: 80px 8% 40px 8%;
+        padding: 60px 8% 40px 8%;
         align-items: center; 
         flex-direction: column;
         justify-content: center;
@@ -421,7 +421,7 @@ section.dicionario {
     }
     
     section.sobre {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     /* Sobre */
